@@ -1,0 +1,68 @@
+/*permite ajustar el cuerpo de la pagina*/
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(../img/fondo.jpg)no-repeat fixed center center #333;
+}
+
+/*permite ajustar la primera division de la pagina*/
+
+#wrapper{
+
+	margin-top: 20px;
+	margin-left:  20px;
+	border-radius: 5px;
+	background-color: #ccc;
+	height: 1500px;
+	width: 1200px;
+	margin: 100 auto;
+}
+
+#Titulo{
+	text-shadow: 10;
+	text-align: center ;
+	font-family: Verdana;
+	font-size: 30px;
+	border-radius: 5px;
+	background-color: #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 1000px;
+}
+
+#primera_seccion{
+	border-radius: 5px;
+	background-color: #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 1000px;
+}
+
+#segunda_seccion{
+	border-radius: 5px;
+	background-color: #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 1000px;
+}
+
+#tercera_seccion{
+	border-radius: 5px;
+	background-color: #ddd;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 1000px;
+}
