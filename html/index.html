@@ -2,7 +2,7 @@
 <html lang ="esp">
 <head>
 	<!--titulo de la barra de la pagina-->
-	<title>204035 - Programación Web 1</title>
+	<title>204035 - Programación Web</title>
 	<!--codificacion de la pagina e informacion que identificara a la pagina-->
 	<meta charset="utf-8">
 	<meta description = "Sitio web sobre contenido de la materia ">
@@ -34,41 +34,80 @@
 
 </head>
 <body>
-	<!-- es un contenedor general -->
-	<div id="wrapper"> 
-		<!-- seccion dentro del contenedor -->
+<!-- aqui se crean los botones y listados -->
+
+	<div id="encabezado"> 
 		<section id ="Titulo">
-			<br></br>
-			<B>204035 - Programación Web</B>
+			<B class=tit_programacion>204035 - Programación Web</B>
+			<a href="https://www.unad.edu.co/"><img src="img/unad.png" class="logo_unad"></img></a>
+		</section>
+	</div>
+
+	<div id="menus"> 
+		<section id ="Menu1">
+			<ul>
+				<a href="index.html" class="opc_menu">Inicio</a>
+			</ul>
+		</section>
+		<section id ="Menu2">
+			<ul>
+				<a href="index.html" class="opc_menu">Lecturas</a>
+			</ul>
+		</section>
+		<section id ="Menu3">
+			<ul>
+				<a href="multimedia.html" class="opc_menu">Multimedia</a>
+			</ul>
 		</section>
 
+		<section id ="Menu4">
+			<ul>
+				<a href="index.html" class="opc_menu">Actividades</a>
+			</ul>
+		</section>
+		<section id ="Menu5">
+			<ul>
+				<a href="autores.html" class="opc_menu">Autores</a>
+			</ul>
+	</div>
+
+
+	<!-- es un contenedor general -->
+	<div id="contenedor"> 
+		<!-- seccion dentro del contenedor -->
+
 		<section id ="primera_seccion">
-			<br></br>
-			<B>¿Qué es PHP?</B>
+			<B class=titulos_generales>¿Qué es PHP?</B>
 			<br></br>
 			Las siglas PHP vienen del acrónimo Hypertext PreProcessor, este lenguaje es utilizado para realizar páginas web los cuales trabajan de forma integrada con el lenguaje HTML. 
 			La diferencia más importante con respecto a HTML es que cuando ejecuta las instrucciones, este código muestra solo los resultados, ya que nunca mostrará al usuario el código que contiene para poder obtener dicho resultado. 
 			Esto lo hace muy seguro, además es muy simple de utilizar y permite realizar conexiones a DBA y ejecutar instrucciones SQL con el fin de guardar datos en la misma.
 			<br></br>
-			<br></br>
 		</section>
 
+		<section>
+			<img src="img/phpimg.png" class="imagenes_inicio">
+		</section>
 
 		<section id ="segunda_seccion">
-			<B>Etiqueta</B>
+			<B class=titulos_generales>Etiqueta</B>
 			<br></br>
 			Es una marca que delimita una porción de código, estos generalmente se identifican por tener la siguiente sintaxis <Etiqueta>
 			<br></br>
-			<br></br>
+		</section>
+
+		<section>
+			<img src="img/Etiqueta.png" class="imagenes_inicio">
 		</section>
 
 		<section id ="tercera_seccion">
-			<B>Conector</B>
+			<B class=titulos_generales>Conector</B>
 			<br></br>
 			Es una porción de código que permite conectarse a un servidor de base de datos SQL.
 			<br></br>
 			<br></br>
 		</section>
+
 	</div>
 </body>
 </html>
