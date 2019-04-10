@@ -1,15 +1,22 @@
-    .tit_tab_autor {
+#Menu1 li.opc_5 a { 
+					background-color: #F47920;
+					color: white;
+					border-radius: 5px;
+					border-bottom:9px solid #6e6e6e;
+					}
+
+.tit_tab_autor {
     				text-shadow: 300;
         			font-family: "Franklin Gothic Book";
     				font-size: 25px;
     				text-align: left; }
-    .resp_tab_autor {
+.resp_tab_autor {
     				text-shadow: 300;
         			font-family: "Franklin Gothic Book";
     				font-size: 23px;
     				text-align: left; }
 
-    .foto_perfil	{
+.foto_perfil	{
 					margin-top: -165px;
 					text-align: center;
 					float: left;

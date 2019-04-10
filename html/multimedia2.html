@@ -13,7 +13,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/EstilosPagina.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="css/animacion_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/03_multimedia.css">
 	<!--modernizer ajusta algunas cosas que probablemente no se vean bien en flash o en css o en algun navegador-->
 	<!--este puede mandar mensajes al usuario para que se puedan activar o ajustar las cosas que falten-->
 	<!--https://modernizr.com/-->
@@ -46,16 +47,27 @@
 
 	<div id="menus"> 
 		<section id ="Menu1">
-			<ul>
-				<a href="index.html" class="opc_menu">Inicio</a>
-				<a href="index.html" class="opc_menu">Lecturas</a>
-				<a href="multimedia.html" class="opc_menu">Multimedia</a>
-				<a href="index.html" class="opc_menu">Actividades</a>
-				<a href="autores.html" class="opc_menu">Autores</a>
-			</ul>
+			<ul id="menu_principal">
+				<li class="opc_1"><a href="index.html" class="opc_menu">Inicio</a></li>
+        <li class="opc_2"><a href="index.html" class="opc_menu">Lecturas</a></li>
+        <li class="opc_3"> <a class="opc_menu">Multimedia</a>
+            <ul id="submenu">
+                <li class="opc_3_1"><a href="multimedia.html" class="opc_submenu">Video 1</a></li>
+                <li class="opc_3_2"><a href="multimedia2.html" class="opc_submenu">Video 2</a></li>
+            </ul>
+        </li>
+        <li class="opc_4"><a href="index.html" class="opc_menu">Actividades</a>
+            <ul id="submenu">
+                <li class="opc_4_1"><a href="multimedia.html" class="opc_submenu">Actividad 1</a></li>
+                <li class="opc_4_2"><a href="multimedia.html" class="opc_submenu">Actividad 2</a></li>
+                <li class="opc_4_3"><a href="multimedia.html" class="opc_submenu">Actividad 3</a></li>
+            </ul>
+        </li>
+        <li class="opc_5"><a href="autores.html" class="opc_menu">Autores</a></li>
+      </ul>
 		</section>
-	
 	</div>
+
 
 
 	<!-- es un contenedor general -->

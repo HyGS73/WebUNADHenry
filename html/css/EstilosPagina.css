@@ -76,16 +76,13 @@ body
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	float: left;
 	padding: 10px;
-	padding-right: 40px;
-	margin-left: 100px;
-	margin-top: 10px;
+	padding-right: auto;
+	margin-left: 10px;
+	margin-top: 8px;
 	width: auto;
 	height: auto;
 	
 }
-
-
-
 
 
 #contenedor{
@@ -159,10 +156,21 @@ body
 #Menu1 ul a {
 	text-decoration:none;
 	background:transparent;
-	border-bottom:9px solid transparent;
+	border-bottom:8px solid transparent;
 	padding:15px;
 	color: #815B05;
 }
 #Menu1 ul a:hover {
-	border-bottom:9px solid #6e6e6e;
+	border-bottom:8px solid #6e6e6e;
+	/*background-color: #F47920;
+	background-size: 1px;*/
+	color: white;
+	border-radius: 5px;
 }
+
+#Menu1 li {
+			display: inline;
+		}
+#submenu li {
+			display: block;
+		}
