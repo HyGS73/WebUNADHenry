@@ -1,0 +1,27 @@
+#text1{
+	text-shadow: 10;
+	text-align: left;
+	font-family: Verdana;
+	font-size: 16px;
+	/*background-color: rgba(36,49,83,255); color azul oscuro de la unad*/
+	float: left;
+	padding: 20px;
+	padding-right: 40px;
+	margin-left: 100px;
+	margin-top: 5px;
+	width: auto;
+	height: auto;
+	
+}
+
+#video{
+
+	margin-top: 40px;
+	margin-left: 150px;
+	border-radius: 5px;
+	background-color: white ; /*color amarilla de la unad*/
+	/*background-color: #F2B80D ; color amarilla de la unad*/
+	height: 500px;
+	width: 700px;
+	margin: 100 auto;
+}
