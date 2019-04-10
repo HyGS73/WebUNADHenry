@@ -31,7 +31,7 @@ body
 	margin-top: 20px;
 	margin-left:  100px;
 	border-radius: 5px;
-	background-color: #333333 ; 
+	background-color: #F3B72D ; 
 	/*background-color: #F2B80D ; color amarilla de la unad*/
 	height: 200px;
 	width: 1200px;
@@ -55,12 +55,12 @@ body
 }
 
 #menus{
-	margin-top: 20px;
-	margin-left: 100px;
-	border-radius: 5px;
-	background-color:#F2B80D; /*color amarilla de la unad*/
+	margin-top: 50px;
+	margin-left: 160px;
+	border-radius: 8px;
+	background-color:#F3B72D ; /*color amarilla de la unad*/
 	height: 115px;
-	width: 1200px;
+	width: 1050px;
 	margin: 100 auto;
 }
 
@@ -72,88 +72,20 @@ body
 	font-size: 25px;
 	border-radius: 5px;
 	/*background-color: rgba(36,49,83,255); color azul oscuro de la unad*/
-	background-color: #005883;
+	background-color: transparent;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	float: left;
 	padding: 10px;
 	padding-right: 40px;
-	margin-left: 50px;
-	margin-top: 9px;
+	margin-left: 100px;
+	margin-top: 10px;
 	width: auto;
 	height: auto;
+	
 }
 
 
-#Menu2{
-	text-shadow: 10;
-	text-align: center ;
-	font-family: Verdana;
-	font-size: 25px;
-	border-radius: 5px;
-	background-color: #005883;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	float: left;
-	padding: 10px;
-	padding-right: 40px;
-	margin-left: 20px;
-	margin-top: 9px;
-	width: auto;
-	height: auto;
-}
 
-
-#Menu3{
-	text-shadow: 10;
-	text-align: center ;
-	font-family: Verdana;
-	font-size: 25px;
-	border-radius: 5px;
-	background-color: #005883;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	float: left;
-	padding: 10px;
-	padding-right: 40px;
-	margin-left: 20px;
-	margin-top: 9px;
-	width: auto;
-	height: auto;
-}
-
-
-#Menu4{
-	text-shadow: 10;
-	text-align: center ;
-	font-family: Verdana;
-	font-size: 25px;
-	border-radius: 5px;
-	background-color: #005883;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	float: left;
-	padding: 10px;
-	padding-right: 40px;
-	margin-left: 20px;
-	margin-top: 9px;
-	width: auto;
-	height: auto;
-}
-
-
-#Menu5{
-	text-shadow: 10;
-	text-align: center ;
-	font-family: Verdana;
-	font-size: 25px;
-	border-radius: 5px;
-	background-color: #005883;
-	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	float: left;
-	padding: 10px;
-	padding-right: 40px;
-	margin-left: 20px;
-	margin-top: 9px;
-	width: auto;
-	height: auto;
-}
 
 
 #contenedor{
@@ -232,4 +164,15 @@ body
 	width: 7.5em;
 	height: 2.2em;
 	padding-left: 790px;
+}
+
+#Menu1 ul a {
+	text-decoration:none;
+	background:transparent;
+	border-bottom:9px solid transparent;
+	padding:15px;
+	color: #815B05;
+}
+#Menu1 ul a:hover {
+	border-bottom:9px solid #6e6e6e;
 }
