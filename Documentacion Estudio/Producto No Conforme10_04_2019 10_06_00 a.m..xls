@@ -1,0 +1,12 @@
+<form method="post" action="PNCXVendedor.aspx" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="
+__VIEWSTATE" value="" />
+</div>
+<span id="lblTitulo" style="display:inline-block;color:Black;font-size:Large;font-weight:bold;width:371px;">Producto No Conforme Por Vendedor</span></b><br><br><div>
+	<table class="panelCenter" cellspacing="0" cellpadding="4" border="0" id="gvExportar" style="color:#333333;border-width:1px;border-style:solid;font-size:12px;border-collapse:collapse;">
+		<tr>
+			<td colspan="5">No Hay Registros</td>
+		</tr>
+	</table>
+</div></form>

@@ -7,7 +7,7 @@ body
 	/*background: url(../img/fondo.jpg)no-repeat fixed center center #333;*/
 }
 
-    .tit_programacion { color: White;
+    .tit_programacion { color: black;
     				text-shadow: 300;
         			font-family: "Franklin Gothic Heavy";
     				font-size: 50px;
@@ -15,7 +15,7 @@ body
 
     .opc_menu { color: white; 
         			font-family: "Arial Black";
-    				font-size: 23px;
+    				font-size: 22px;
     				text-align: center;}
 
     .titulos_generales { color: #333333;
@@ -31,8 +31,7 @@ body
 	margin-top: 20px;
 	margin-left:  100px;
 	border-radius: 5px;
-	background-color: #F3B72D ; 
-	/*background-color: #F2B80D ; color amarilla de la unad*/
+	background-color: #F3B72D; /*color amarilla unad*/
 	height: 200px;
 	width: 1200px;
 	margin: 100 auto;
@@ -45,7 +44,8 @@ body
 	text-align: left;
 	font-size: 30px;
 	border-radius: 5px;
-	background-color: #B3B3B3;
+	background-color: rgb(250,250,250);
+	/*background-color: #B3B3B3;/*COLOR GRIS UNAD*/
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	float: left;
 	padding: 30px;
@@ -54,36 +54,48 @@ body
 	width: 1025px;
 }
 
+/*contenedor para los menus*/
 #menus{
-	margin-top: 50px;
-	margin-left: 160px;
+	margin-top: -10px;
+	margin-left: 100px;
 	border-radius: 8px;
 	background-color:#F3B72D ; /*color amarilla de la unad*/
 	height: 115px;
-	width: 1050px;
+	width: 1200px;
 	margin: 100 auto;
 }
 
-
+/*marco para el menu principal contenido dentro de menus del marco fondo transparente*/
 #Menu1{
 	text-shadow: 10;
 	text-align: left;
-	font-family: Verdana;
-	font-size: 25px;
-	border-radius: 5px;
+	font-family: "Franklin Gothic Heavy";
+	font-size: 18px;/*tamaño de los submanus*/
+	border-radius: 10px;
 	/*background-color: rgba(36,49,83,255); color azul oscuro de la unad*/
 	background-color: transparent;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	float: left;
 	padding: 10px;
 	padding-right: auto;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-top: 8px;
-	width: auto;
-	height: auto;
-	
+	width: 1150px;
+	height: 75px;
 }
 
+
+#contenedor_twitter{
+
+	margin-top: 40px;
+	margin-left:  100px;
+	border-radius: 5px;
+	background-color: white ; /*color amarilla de la unad*/
+	/*background-color: #F2B80D ; color amarilla de la unad*/
+	height: 500px;
+	width: 1200px;
+	margin: 100 auto;
+}
 
 #contenedor{
 
@@ -145,32 +157,43 @@ body
 
 .logo_unad
 {
-	margin-top: -60px;
+	margin-top: -75px;
 	text-align: center;
 	float: left; ;
-	width: 7.5em;
-	height: 2.2em;
-	padding-left: 790px;
+	/*width: 7.5em;
+	height: 2.2em;*/
+	padding-left: 700px;
 }
 
 #Menu1 ul a {
 	text-decoration:none;
 	background:transparent;
-	border-bottom:8px solid transparent;
-	padding:15px;
-	color: #815B05;
+	border-bottom:6px solid transparent;
+	padding:10px;
+	color: #815B05;/*color texto menu principal*/
 }
+
+/*efecto del mouse pasando encima*/
 #Menu1 ul a:hover {
-	border-bottom:8px solid #6e6e6e;
-	/*background-color: #F47920;
-	background-size: 1px;*/
 	color: white;
-	border-radius: 5px;
+	border-bottom:10px solid #6e6e6e;
+	background-color: #F47920;
+	border-radius: 8px;
 }
 
 #Menu1 li {
-			display: inline;
-		}
-#submenu li {
 			display: block;
 		}
+
+#pie_pagina{
+	background-color: black;
+	margin-top: -16px;
+	height: 100px;
+	width: 1600px;
+	color: white;
+	text-align: right;
+	border-right: 200px;
+}
+.tabla_piepagina{
+	 padding-top : 10px;
+	 padding-left: 165px;

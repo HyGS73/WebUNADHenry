@@ -2,6 +2,7 @@
 ul#menu_principal {
 width: 900px;
 margin: 25px;
+margin-left: 130px;/*margen izquierdo texto menu completo*/
 overflow:hidden;
 }
  
@@ -9,22 +10,15 @@ overflow:hidden;
 ul#menu_principal li {
  float: left;
  list-style: none;
- margin: 0% 0.1%;
+ margin: 5px 18px 21px ; /* margin (baja menu) espacio entre menu*/
 }
  
-
-/*muestra el menu al pasar el mouse*/
-ul#menu_principal li:hover{
- cursor:pointer;
-}
-
-/*mantiene oculto el menu*/
 
 ul#menu_principal ul {
  display: none;
  position: absolute;
  /*mide la distancia del menu principal al menu desplegable*/
- top: 340px;
+ top: 300px;
  background: #6e6e6e;
  /*fondo del submenu*/
  color: white;
@@ -32,6 +26,30 @@ ul#menu_principal ul {
  margin: 2px;
  }
   
+
+/*mantiene oculto el menu*/
+
+/*color del texto*/ 
+ul#menu_principal ul li a{
+ color: #fff;
+}
+
+/*texto donde se pasa el mouse*/
+ul#menu_principal ul li a:hover{
+ color: #815B05; /*color texto sub menu*/
+ cursor:pointer;
+  display: inline;
+}
+
+ul#menu_principal li:hover ul,ul#menu_principal ul li:hover ul,ul#menu_principal ul ul li:hover ul,ul#menu_principal li.iehover ul,ul#menu_principal ul li.iehover ul,ul#menu_principal ul ul li.iehover ul {
+ display: block;
+ padding-top: 20px;
+ cursor:pointer;
+ background-color: #F3B72D;
+ width: 170px;
+}
+
+
 /*
 proporciona espacio y color al submenu
 ul#menu_principal ul li{
@@ -41,23 +59,17 @@ ul#menu_principal ul li{
  margin:2% 0%;
 }
 */
-/*color del texto*/ 
-ul#menu_principal ul li a{
- color: #fff;
-}
-  
 
-ul#menu_principal ul li a:hover{
- color: #aaa073;
+/*muestra el menu al pasar el mouse
+ul#menu_principal li:hover{
  cursor:pointer;
 }
-  
+*/
+
+  /*
 ul#menu_principal li:hover ul ul, ul#menu_principal li:hover ul ul ul,ul#menu_principal li.iehover ul ul,ul#menu_principal li.iehover ul ul ul {
  display: none;
  cursor:pointer;
+ padding-top: 20px;
 }
-  
-ul#menu_principal li:hover ul,ul#menu_principal ul li:hover ul,ul#menu_principal ul ul li:hover ul,ul#menu_principal li.iehover ul,ul#menu_principal ul li.iehover ul,ul#menu_principal ul ul li.iehover ul {
- display: block;
- cursor:pointer;
-}
+  */
