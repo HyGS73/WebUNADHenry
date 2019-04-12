@@ -85,18 +85,6 @@ body
 }
 
 
-#contenedor_twitter{
-
-	margin-top: 40px;
-	margin-left:  100px;
-	border-radius: 5px;
-	background-color: white ; /*color amarilla de la unad*/
-	/*background-color: #F2B80D ; color amarilla de la unad*/
-	height: 500px;
-	width: 1200px;
-	margin: 100 auto;
-}
-
 #contenedor{
 
 	margin-top: 40px;
@@ -109,6 +97,28 @@ body
 	margin: 100 auto;
 }
 
+#contenedor_twitter{
+	margin-top: 0px;
+	margin-left: 50px;
+	border-radius: 5px;
+	background-color: white ; /*color amarilla de la unad*/
+	/*background-color: #F2B80D ; color amarilla de la unad*/
+	height: auto;
+	width: auto;
+	margin: 100 auto;
+}
+
+
+#secciones_index{
+	border-radius: 5px;
+	background-color: #B3B3B3;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: left;
+	padding: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 700px;
+}
 
 
 #primera_seccion{

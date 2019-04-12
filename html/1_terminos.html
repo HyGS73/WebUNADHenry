@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang ="esp">
+<head>
+	<!--titulo de la barra de la pagina-->
+	<title>204035 - Programación Web</title>
+	<!--codificacion de la pagina e informacion que identificara a la pagina-->
+	<meta charset="utf-8">
+	<meta description = "Sitio web sobre contenido de la materia ">
+
+	<!--el normalize es un plugin de css descargado de gimp para ajustar estilos-->
+	<!--iuna vez descargada se agrega a la carpeta css-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/EstilosPagina.css">
+    <link rel="stylesheet" type="text/css" href="css/animacion_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/animacion_titulo.css">
+    <link rel="stylesheet" type="text/css" href="css/01_index.css">
+	<!--modernizer ajusta algunas cosas que probablemente no se vean bien en flash o en css o en algun navegador-->
+	<!--este puede mandar mensajes al usuario para que se puedan activar o ajustar las cosas que falten-->
+	<!--https://modernizr.com/-->
+	
+
+	<!--<script type="text/javascript" src="js/modernizr-custom.js"></script>-->
+	<!--otro archivo js que puede activar caracteristicas del navegador se puede descargar desde:-->
+	<!--https://featurejs.com/-->
+
+
+	<!--adapta la pagina a los diferentes navegadores se puede descargar desde:-->
+	<!--https://leaverou.github.io/prefixfree/-->
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+
+
+	<!--este archivo permite generar efectos y animaciones para una pagina web-->
+	<!--<script type="text/javascript" src="js/Efectosjquery.js"></script>-->
+
+
+</head>
+  <body>
+<!-- aqui se crean los botones y listados -->
+<div id="encabezado"> 
+	<article>
+	
+		<section id ="Titulo">
+			<B id="title" contenteditable="false" spellcheck="false"><span>204035 - Programación Web</span></B>
+			<a href="https://www.unad.edu.co/"><img src="img/unad.png" class="logo_unad"></img></a>
+		</section>
+		<aside> 
+				Visitas<div id="sfcbej54rd6gw1zkrrmylud9dzeegjn7aum"></div><script type="text/javascript" src="https://counter6.wheredoyoucomefrom.ovh/private/counter.js?c=bej54rd6gw1zkrrmylud9dzeegjn7aum&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blogger"><img src="https://counter6.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=bej54rd6gw1zkrrmylud9dzeegjn7aum" border="0" title="contador de visitas para blogger" alt="contador de visitas para blogger"></a></noscript> 
+		</aside>
+	</article>
+</div>
+	<div id="menus"> 
+		<section id ="Menu1">
+			<ul id="menu_principal">
+				<li class="opc_1"><a href="index.html" class="opc_menu">Inicio</a></li>
+        <li class="opc_2"><a href="index.html" class="opc_menu">Lecturas</a></li>
+        <li class="opc_3"> <a class="opc_menu">Multimedia</a>
+            <ul id="submenu">
+                <li class="opc_3_1"><a href="multimedia.html" class="opc_submenu">Video 1</a></li>
+                <li class="opc_3_2"><a href="multimedia2.html" class="opc_submenu">Video 2</a></li>
+            </ul>
+        </li>
+        <li class="opc_4"><a class="opc_menu">Actividades</a>
+            <ul id="submenu">
+                <li class="opc_4_1"><a href="Actividad_01.html" class="opc_submenu">Actividad 1</a></li>
+                <li class="opc_4_2"><a href="Actividad_02.html" class="opc_submenu">Actividad 2</a></li>
+                <li class="opc_4_3"><a href="Actividad_03.html" class="opc_submenu">Actividad 3</a></li>
+            </ul>
+        </li>
+        <li class="opc_5"><a href="autores.html" class="opc_menu">Autores</a></li>
+      </ul>
+		</section>
+	</div>
+
+	<!-- es un contenedor general -->
+<div id="contenedor"> 
+		<!-- seccion dentro del contenedor -->
+	<article>
+		<section id ="primera_seccion">
+			<B class=titulos_generales>1. Términos</B>
+			<br>
+			<br>
+			<br>	
+			<B class=titulos_generales>¿Qué es PHP?</B>
+			<br></br>
+			Las siglas PHP vienen del acrónimo Hypertext PreProcessor, este lenguaje es utilizado para realizar páginas web los cuales trabajan de forma integrada con el lenguaje HTML. 
+			La diferencia más importante con respecto a HTML es que cuando ejecuta las instrucciones, este código muestra solo los resultados, ya que nunca mostrará al usuario el código que contiene para poder obtener dicho resultado. 
+			Esto lo hace muy seguro, además es muy simple de utilizar y permite realizar conexiones a DBA y ejecutar instrucciones SQL con el fin de guardar datos en la misma.
+			<br></br>
+		</section>
+
+		<section>
+			<img src="img/phpimg.png" class="imagenes_inicio">
+		</section>
+
+		<section id ="primera_seccion">
+			<B class=titulos_generales>Etiqueta</B>
+			<br></br>
+			Es una marca que delimita una porción de código, estos generalmente se identifican por tener la siguiente sintaxis <Etiqueta>
+			<br></br>
+		</section>
+
+		<section>
+			<img src="img/Etiqueta.png" class="imagenes_inicio">
+		</section>
+
+		<section id ="primera_seccion">
+			<B class=titulos_generales>Conector</B>
+			<br></br>
+			Es una porción de código que permite conectarse a un servidor de base de datos SQL.
+			<br></br>
+			<br></br>
+		</section>
+	</article>
+</div>
+
+<footer id=pie_pagina>
+  		<p id=twitter>
+			<table class="tabla_piepagina">
+  				<tr>
+  					<td><img src="img/logo_horizontal_unad_blanco.png" width=60% height=60%></td>
+    				<td><B>Síguenos en nuestra red social de twitter    .</B></td>
+    				<td><a href="https://twitter.com/UniversidadUNAD"><img src="img/Twitter-logo.png" width="30" height="30"></a></td>
+					<td>
+						Visitas <div id="sfcbej54rd6gw1zkrrmylud9dzeegjn7aum"></div> <script type="text/javascript" src="https://counter6.wheredoyoucomefrom.ovh/private/counter.js?c=bej54rd6gw1zkrrmylud9dzeegjn7aum&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blogger"><img src="https://counter6.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=bej54rd6gw1zkrrmylud9dzeegjn7aum" border="0" title="contador de visitas para blogger" alt="contador de visitas para blogger"></a></noscript> 
+					</td>
+					<!--div id="sfcbej54rd6gw1zkrrmylud9dzeegjn7aum"></div-->
+  				</tr>
+  			</table>
+  		</p>
+	</footer>
+  </body>
+</html>
