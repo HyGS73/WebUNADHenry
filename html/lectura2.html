@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang ="esp">
+<head>
+	<!--titulo de la barra de la pagina-->
+	<title>204035 - Programación Web</title>
+	<!--codificacion de la pagina e informacion que identificara a la pagina-->
+	<meta charset="utf-8">
+	<meta description = "Sitio web sobre contenido de la materia ">
+
+	<!--el normalize es un plugin de css descargado de gimp para ajustar estilos-->
+	<!--iuna vez descargada se agrega a la carpeta css-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/EstilosPagina.css">
+    <link rel="stylesheet" type="text/css" href="css/animacion_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/animacion_titulo.css">
+    <link rel="stylesheet" type="text/css" href="css/03_multimedia.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--modernizer ajusta algunas cosas que probablemente no se vean bien en flash o en css o en algun navegador-->
+	<!--este puede mandar mensajes al usuario para que se puedan activar o ajustar las cosas que falten-->
+	<!--https://modernizr.com/-->
+	
+
+	<!--<script type="text/javascript" src="js/modernizr-custom.js"></script>-->
+	<!--otro archivo js que puede activar caracteristicas del navegador se puede descargar desde:-->
+	<!--https://featurejs.com/-->
+
+
+	<!--adapta la pagina a los diferentes navegadores se puede descargar desde:-->
+	<!--https://leaverou.github.io/prefixfree/-->
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+
+
+	<!--este archivo permite generar efectos y animaciones para una pagina web-->
+	<!--<script type="text/javascript" src="js/Efectosjquery.js"></script>-->
+
+
+</head>
+<body>
+<!-- aqui se crean los botones y listados -->
+
+	<div id="encabezado"> 
+		<section id ="Titulo">
+			<B id="title" contenteditable="false" spellcheck="false"><span>204035 - Programación Web</span></B>
+			<a href="https://www.unad.edu.co/"><img src="img/unad.png" class="logo_unad"></img></a>
+		</section>
+	</div>
+
+	<div id="menus"> 
+		<section id ="Menu1">
+			<ul id="menu_principal">
+				<li class="opc_1"><a href="index.html" class="opc_menu">Inicio</a></li>
+        <li class="opc_3"><a class="opc_menu">Lecturas</a>
+			<ul id="submenu">
+                <li class="opc_3_1"><a href="lectura1.html" class="opc_submenu">lectura 1</a></li>
+                <li class="opc_3_2"><a href="lectura2.html" class="opc_submenu">lectura 2</a></li>
+				<li class="opc_3_2"><a href="lectura3.html" class="opc_submenu">lectura 3</a></li>
+				<li class="opc_3_2"><a href="lectura4.html" class="opc_submenu">lectura 4</a></li>
+				<li class="opc_3_2"><a href="lectura5.html" class="opc_submenu">lectura 5</a></li>
+            </ul>
+		</li>
+        <li > <a class="opc_menu">Multimedia</a>
+            <ul id="submenu">
+                <li class="opc_3_1"><a href="multimedia.html" class="opc_submenu">Video 1</a></li>
+                <li class="opc_3_2"><a href="multimedia2.html" class="opc_submenu">Video 2</a></li>
+            </ul>
+        </li>
+        <li class="opc_4"><a class="opc_menu">Actividades</a>
+            <ul id="submenu">
+                <li class="opc_4_1"><a href="Actividad_01.html" class="opc_submenu">Actividad 1</a></li>
+                <li class="opc_4_2"><a href="Actividad_02.html" class="opc_submenu">Actividad 2</a></li>
+                <li class="opc_4_3"><a href="Actividad_03.html" class="opc_submenu">Actividad 3</a></li>
+            </ul>
+        </li>
+        <li class="opc_5"><a href="autores.html" class="opc_menu">Autores</a></li>
+      </ul>
+		</section>
+	</div>
+
+
+
+	<!-- es un contenedor general -->
+	<div id="contenedor"> 
+		<!-- seccion dentro del contenedor -->
+
+		<section id ="primera_seccion">
+			<B class=titulos_generales>¿QUÉ ES JAVASCRIPT?</B>
+			
+			<br>
+			<br>
+			<p id ='text1'> 
+			Javascript es un lenguaje que puede ser utilizado por profesionales y para quienes se inician en el desarrollo y diseño de sitios web. No requiere de compilación ya que el lenguaje funciona del lado del cliente, los navegadores son los encargados de interpretar estos códigos.<br> <br>
+
+			Muchos confunden el Javascript con el Java pero ambos lenguajes son diferentes y tienes sus características singulares. Javascript tiene la ventaja de ser incorporado en cualquier página web, puede ser ejecutado sin la necesidad de instalar otro programa para ser visualizado.<br>
+
+			Java por su parte tiene como principal característica ser un lenguaje independiente de la plataforma. Se puede crear todo tipo de programa que puede ser ejecutado en cualquier ordenador del mercado: Linux, Windows, Apple, etc. Debido a sus características también es muy utilizado para internet.<br>
+
+			Como síntesis se pude decir que Javascript es un lenguaje interpretado, basado en prototipos, mientras que Java es un lenguaje más orientado a objetos.
+			
+			</p> 
+						<img src="img/js.png" class="imagenes_inicio">
+
+
+
+		</section>
+	</div>
+
+		<footer id=pie_pagina>
+  		<p id=twitter>
+			<table class="tabla_piepagina">
+  				<tr>
+  					<td><img src="img/logo_horizontal_unad_blanco.png" width=60% height=60%></td>
+    				<td><B>Síguenos en nuestra red social de twitter    .</B></td>
+    				<td><a href="https://twitter.com/UniversidadUNAD"><img src="img/Twitter-logo.png" width="30" height="30"></a></td>
+  				</tr>
+  			</table>
+  		</p>
+	</footer>
+
+</body>
+</html>

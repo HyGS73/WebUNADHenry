@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang ="esp">
+<head>
+	<!--titulo de la barra de la pagina-->
+	<title>204035 - Programación Web</title>
+	<!--codificacion de la pagina e informacion que identificara a la pagina-->
+	<meta charset="utf-8">
+	<meta description = "Sitio web sobre contenido de la materia ">
+
+	<!--el normalize es un plugin de css descargado de gimp para ajustar estilos-->
+	<!--iuna vez descargada se agrega a la carpeta css-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/EstilosPagina.css">
+    <link rel="stylesheet" type="text/css" href="css/animacion_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/animacion_titulo.css">
+    <link rel="stylesheet" type="text/css" href="css/03_multimedia.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--modernizer ajusta algunas cosas que probablemente no se vean bien en flash o en css o en algun navegador-->
+	<!--este puede mandar mensajes al usuario para que se puedan activar o ajustar las cosas que falten-->
+	<!--https://modernizr.com/-->
+	
+
+	<!--<script type="text/javascript" src="js/modernizr-custom.js"></script>-->
+	<!--otro archivo js que puede activar caracteristicas del navegador se puede descargar desde:-->
+	<!--https://featurejs.com/-->
+
+
+	<!--adapta la pagina a los diferentes navegadores se puede descargar desde:-->
+	<!--https://leaverou.github.io/prefixfree/-->
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+
+
+	<!--este archivo permite generar efectos y animaciones para una pagina web-->
+	<!--<script type="text/javascript" src="js/Efectosjquery.js"></script>-->
+
+
+</head>
+<body>
+<!-- aqui se crean los botones y listados -->
+
+	<div id="encabezado"> 
+		<section id ="Titulo">
+			<B id="title" contenteditable="false" spellcheck="false"><span>204035 - Programación Web</span></B>
+			<a href="https://www.unad.edu.co/"><img src="img/unad.png" class="logo_unad"></img></a>
+		</section>
+	</div>
+
+	<div id="menus"> 
+		<section id ="Menu1">
+			<ul id="menu_principal">
+				<li class="opc_1"><a href="index.html" class="opc_menu">Inicio</a></li>
+        <li class="opc_3"><a  class="opc_menu">Lecturas</a>
+			<ul id="submenu">
+                <li class="opc_3_1"><a href="lectura1.html" class="opc_submenu">lectura 1</a></li>
+                <li class="opc_3_2"><a href="lectura2.html" class="opc_submenu">lectura 2</a></li>
+				<li class="opc_3_2"><a href="lectura3.html" class="opc_submenu">lectura 3</a></li>
+				<li class="opc_3_2"><a href="lectura4.html" class="opc_submenu">lectura 4</a></li>
+				<li class="opc_3_2"><a href="lectura5.html" class="opc_submenu">lectura 5</a></li>
+            </ul>
+		</li>
+        <li > <a class="opc_menu">Multimedia</a>
+            <ul id="submenu">
+                <li class="opc_3_1"><a href="multimedia.html" class="opc_submenu">Video 1</a></li>
+                <li class="opc_3_2"><a href="multimedia2.html" class="opc_submenu">Video 2</a></li>
+            </ul>
+        </li>
+        <li class="opc_4"><a class="opc_menu">Actividades</a>
+            <ul id="submenu">
+                <li class="opc_4_1"><a href="Actividad_01.html" class="opc_submenu">Actividad 1</a></li>
+                <li class="opc_4_2"><a href="Actividad_02.html" class="opc_submenu">Actividad 2</a></li>
+                <li class="opc_4_3"><a href="Actividad_03.html" class="opc_submenu">Actividad 3</a></li>
+            </ul>
+        </li>
+        <li class="opc_5"><a href="autores.html" class="opc_menu">Autores</a></li>
+      </ul>
+		</section>
+	</div>
+
+
+
+	<!-- es un contenedor general -->
+	<div id="contenedor"> 
+		<!-- seccion dentro del contenedor -->
+
+		<section id ="primera_seccion">
+			<B class=titulos_generales>CSS HOJAS DE ESTILO</B>
+			
+			<br>
+			<br>
+			<p id ='text1'> 
+			El lenguaje HTML definía la estructura y la semántica de los documentos y se centraba, sobre todo, en el contenido, ya que surgió como medio de comunicación entre los científicos. Sin embargo, el éxito de la Word Wide Web amplió el abanico de usuarios y poco a poco fue cobrando importancia no sólo el contenido, sino también el diseño y la presentación de la información. Los diseñadores de webs y los editores de páginas HTML comenzaron a integrar nuevas funciones y las sucesivas versiones de HTML incluyeron nuevas etiquetas capaces de realizar esas funciones. <br><br>
+			
+			Sin embargo, la diversidad de plataformas y navegadores que recogían de distinta forma estas nuevas versiones, condujeron a que en la última versión de la especificación HTML, la 4.0, se volviera hacia el objetivo inicial que era dar importancia a las características que afectaban a la estructura y a la semántica de los documentos, y no a su diseño o aspecto físico, desaconsejando el uso de ciertos elementos y atributos relacionados con la presentación del documento. En esta especificación también se propone delegar todas estas características de presentación y diseño en las hojas de estilo. 
+			
+			Una hoja de estilo (style sheets) no es más que una colección de reglas que afectan a la apariencia de un documento. Estas reglas se refieren al modo en que aparecerá un documento en pantalla cuando el usuario utilice un navegador o explorador gráfico, controlando por ejemplo el color, el fondo, tipo de fuente, apariencia de los bordes, márgenes, alineación y espacio entre caracteres.</p>
+					
+			<img src="img/css3_1.jpg" class="imagenes_inicio">
+			<p id ='text1'>
+			<br><br> 
+			El HTML 4.0 desplaza muchas de las funciones realizadas por las anteriores versiones hacia las hojas de estilo, reservando el lenguaje HTML para cuestiones menos formales, relativas a la propia organización del contenido, y lo mismo ocurre con el lenguaje XML.
+ 
+			Las ventajas que ofrece la utilización de hojas de estilo es que se diseñan de forma independiente al documento HTML y que se se pueden aplicar, enteras o alguno de sus niveles, a los documentos que se desee, facilitando la consistencia y homogeneidad en el diseño y la imagen del sitio web. Además, las hojas de estilo se pueden adecuar a los distintos medios de presentación de documentos (pantallas del ordenador, impresoras, televisores, navegadores basados en voz, documentos en Braille...). <br>El usuario también puede elegir qué tipo de diseño prefiere visualizar en un mismo documento: desde un formato más simple o tradicional, a uno más sofisticado. Una ventaja adicional es que reducen el tiempo de carga de las páginas web en el ordenador, puesto que las hojas de estilo se cargan en el navegador o visualizador, de manera que al acceder a un documento que incluya la misma hoja de estilo de otro que se ha "bajado" anteriormente no será necesario volver a cargarla, porque ya se encuentra en el ordenador cliente.
+
+			</p> 
+
+		</section>
+	</div>
+
+		<footer id=pie_pagina>
+  		<p id=twitter>
+			<table class="tabla_piepagina">
+  				<tr>
+  					<td><img src="img/logo_horizontal_unad_blanco.png" width=60% height=60%></td>
+    				<td><B>Síguenos en nuestra red social de twitter    .</B></td>
+    				<td><a href="https://twitter.com/UniversidadUNAD"><img src="img/Twitter-logo.png" width="30" height="30"></a></td>
+  				</tr>
+  			</table>
+  		</p>
+	</footer>
+
+</body>
+</html>
