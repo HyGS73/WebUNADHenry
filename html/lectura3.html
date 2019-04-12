@@ -13,7 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="css/EstilosPagina.css">
     <link rel="stylesheet" type="text/css" href="css/animacion_menu.css">
     <link rel="stylesheet" type="text/css" href="css/animacion_titulo.css">
-    <link rel="stylesheet" type="text/css" href="css/04_actividades.css">
+    <link rel="stylesheet" type="text/css" href="css/03_multimedia.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	<!--modernizer ajusta algunas cosas que probablemente no se vean bien en flash o en css o en algun navegador-->
 	<!--este puede mandar mensajes al usuario para que se puedan activar o ajustar las cosas que falten-->
 	<!--https://modernizr.com/-->
@@ -34,27 +36,21 @@
 
 
 </head>
-  <body>
+<body>
 <!-- aqui se crean los botones y listados -->
 
-<div id="encabezado"> 
-	<article>
-	
+	<div id="encabezado"> 
 		<section id ="Titulo">
 			<B id="title" contenteditable="false" spellcheck="false"><span>204035 - Programación Web</span></B>
 			<a href="https://www.unad.edu.co/"><img src="img/unad.png" class="logo_unad"></img></a>
 		</section>
-		<aside> 
-				Visitas<div id="sfcbej54rd6gw1zkrrmylud9dzeegjn7aum"></div><script type="text/javascript" src="https://counter6.wheredoyoucomefrom.ovh/private/counter.js?c=bej54rd6gw1zkrrmylud9dzeegjn7aum&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blogger"><img src="https://counter6.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=bej54rd6gw1zkrrmylud9dzeegjn7aum" border="0" title="contador de visitas para blogger" alt="contador de visitas para blogger"></a></noscript> 
-		</aside>
-	</article>
-</div>
+	</div>
 
 	<div id="menus"> 
 		<section id ="Menu1">
 			<ul id="menu_principal">
 				<li class="opc_1"><a class="opc_menu">Inicio</a></li>
-        <li class="opc_2"><a href="index.html" class="opc_menu">Lecturas</a>
+        <li class="opc_3"><a class="opc_menu">Lecturas</a>
 			<ul id="submenu">
                 <li class="opc_3_1"><a href="lectura1.html" class="opc_submenu">lectura 1</a></li>
                 <li class="opc_3_2"><a href="lectura2.html" class="opc_submenu">lectura 2</a></li>
@@ -63,7 +59,7 @@
 				<li class="opc_3_2"><a href="lectura5.html" class="opc_submenu">lectura 5</a></li>
             </ul>
 		</li>
-        <li class="opc_3"> <a class="opc_menu">Multimedia</a>
+        <li> <a class="opc_menu">Multimedia</a>
             <ul id="submenu">
                 <li class="opc_3_1"><a href="multimedia.html" class="opc_submenu">Video 1</a></li>
                 <li class="opc_3_2"><a href="multimedia2.html" class="opc_submenu">Video 2</a></li>
@@ -81,41 +77,44 @@
 		</section>
 	</div>
 
-	<!-- es un contenedor general -->
 
+
+	<!-- es un contenedor general -->
 	<div id="contenedor"> 
 		<!-- seccion dentro del contenedor -->
 
 		<section id ="primera_seccion">
-			<B class=titulos_generales>ACTIVIDAD 3</B>
-			<br></br>
-			<B class=titulos_generales>Test 1 - Evaluación sobre HTML</B>
-			<br></br>
-				<iframe width="1000" height="600" frameborder="0" src="https://es.educaplay.com/es/recursoseducativos/4249350/html5/programacion_quizz.htm"></iframe>
-			<br></br>
-			<br></br>
-			<B class=titulos_generales>Test 2 - Evaluación sobre HTML</B>
-			<br></br>
-				<iframe width="1000" height="600" frameborder="0" src="https://es.educaplay.com/es/recursoseducativos/4343998/html5/evaluacion_1_html.htm"></iframe>
-			<br></br>
-		</section>
-</div>
+			<B class=titulos_generales>¿QUÉ ES BOOTSTRAP Y CÓMO FUNCIONA EN EL DISEÑO WEB?</B>
+			
+			<br>
+			<br>
+			<p id ='text1'> 
+			Es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice. Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo. Esta técnica de diseño y desarrollo se conoce como “responsive design” o diseño adaptativo.
+			<br><br>
+			El beneficio de usar responsive design en un sitio web, es principalmente que el sitio web se adapta automáticamente al dispositivo desde donde se acceda. Lo que se usa con más frecuencia, y que a mi opinión personal me gusta más, es el uso de media queries, que es un módulo de CSS3 que permite la representación de contenido para adaptarse a condiciones como la resolución de la pantalla y si trabajás las dimensiones de tu contenido en porcentajes, puedes tener una web muy fluida capaz de adaptarse a casi cualquier tamaño de forma automática.
+			
+			</p>
+						<img src="img/bootstrap2.png" class="imagenes_inicio">
 
-	<footer id=pie_pagina>
+			<p id ='text1'>
+			Alejandro Jacquet. (2015). Bootstrap Frontend Editor, crear paginas web con bootstrap, diseño web con bootstrap, Frameworks para desarrollo web, Website Design. [Figura]. Recuperado de <a href = "http://programertech.com.ar/que-es-bootstrap/">http://programertech.com.ar/que-es-bootstrap/ </a>
+
+			</p> 
+
+		</section>
+	</div>
+
+		<footer id=pie_pagina>
   		<p id=twitter>
 			<table class="tabla_piepagina">
   				<tr>
   					<td><img src="img/logo_horizontal_unad_blanco.png" width=60% height=60%></td>
     				<td><B>Síguenos en nuestra red social de twitter    .</B></td>
     				<td><a href="https://twitter.com/UniversidadUNAD"><img src="img/Twitter-logo.png" width="30" height="30"></a></td>
-					<td>
-						Visitas <div id="sfcbej54rd6gw1zkrrmylud9dzeegjn7aum"></div> <script type="text/javascript" src="https://counter6.wheredoyoucomefrom.ovh/private/counter.js?c=bej54rd6gw1zkrrmylud9dzeegjn7aum&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blogger"><img src="https://counter6.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=bej54rd6gw1zkrrmylud9dzeegjn7aum" border="0" title="contador de visitas para blogger" alt="contador de visitas para blogger"></a></noscript> 
-					</td>
-					<!--div id="sfcbej54rd6gw1zkrrmylud9dzeegjn7aum"></div-->
   				</tr>
   			</table>
   		</p>
 	</footer>
 
-  </body>
+</body>
 </html>
